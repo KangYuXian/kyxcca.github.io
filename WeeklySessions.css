@@ -1,0 +1,123 @@
+html {
+    background-image: -webkit-linear-gradient(to right, #d9a7c7, #fffcdc);
+    background-image: linear-gradient(to right, #d9a7c7, #fffcdc);
+}
+
+
+nav {
+    max-width: 900px;
+    mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+nav ul {
+    text-align: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 18px;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    color: rgba(0, 35, 122, 0.5);
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(0, 35, 122, 0.7);
+}
+
+nav ul li a.current {
+    background-color: lightcyan;
+}
+
+h1 {
+    text-align: center;
+    color: chocolate;
+    font-weight: bolder;
+    position: relative;
+    top: 20px;
+}
+
+h2 {
+   color: #fffdd0;
+}
+
+table {
+    text-align: center;
+    margin: 0px auto;
+    width: 78%;
+}
+
+#Two {
+    width: 50%; 
+    height: 100px; 
+    float: left;
+}
+
+
+#Two1 {
+    padding-left: 5.9cm;
+    color: firebrick;
+    margin-top: 45px;
+}
+
+#Two2 {
+    padding-left: 1.7cm;
+    margin-bottom: 30px;
+}
+
+#Three1 {
+    padding-left: 23.7cm;
+    color: firebrick;
+    margin-top: 45px;
+}
+
+#Three2 {
+    padding-left: 20cm;
+    margin-bottom: 70px;
+}
+
+#Four {
+    width: 50%; 
+    height: 100px; 
+    float: left;
+}
+
+#Four1 {
+    padding-left: 5.9cm;
+    color: firebrick;
+    margin-top: 45px;
+}
+
+#Four2 {
+    padding-left: 1.7cm;
+    margin-bottom: 70px;
+}
+
+#Five1 {
+    padding-left: 23.9cm;
+    color: firebrick;
+    margin-top: 45px;
+}
+
+#Five2 {
+    padding-left: 20cm;
+    margin-bottom: 30px;
+}
+
+#Six {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    text-align: end;
+}
